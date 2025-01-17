@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #4CAF50; /* Grön bakgrund */
+    color: white; /* Vit text */
+    width: 75%;
+    height: 6rem;
+    border: 2px solid black;
+    border-radius: 60px;
+    place-self: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+  
+  .nav ul {
+    list-style: none; /* Ta bort punkterna */
+    display: flex;
+    gap: 1.5rem; /* Avstånd mellan länkar */
+    margin: 0; /* Ta bort standardmarginal */
+    padding: 0; /* Ta bort standardpadding */
+    justify-content: right;
+  }
+  
+  .nav a {
+    color: white; /* Vit text för länkar */
+    text-decoration: none; /* Ta bort understrykning */
+    transition: color 0.3s; /* Smidig övergång */
+  }
+  
+  .nav a:hover {
+    color: #FFD700; /* Guldig färg vid hover */
+  }
