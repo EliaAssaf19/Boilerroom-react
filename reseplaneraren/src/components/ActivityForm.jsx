@@ -38,7 +38,7 @@ function ActivityForm({ addActivity }) {
               onChange={(e) => setLocation(e.target.value)}
               required
               />
-              <Button>Lägg till aktivitet</Button>
+               <Button type="submit">Lägg till aktivitet</Button>
               </form>
     );
 }

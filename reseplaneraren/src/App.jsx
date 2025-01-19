@@ -3,7 +3,6 @@ import './App.css'
 import Header from "./components/Header";
 import ActivityForm from "./components/ActivityForm";
 import ActivityList from "./components/ActivityList";
-import ActivityItem from "./components/ActivityItem";
 
 function App() {
   const [activities, setActivities] = useState([]);
