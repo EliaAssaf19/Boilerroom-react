@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Button from "./Button";
 
 function ActivityForm({ addActivity }) {
@@ -11,6 +11,8 @@ function ActivityForm({ addActivity }) {
         if (!name || !date || !location) return; // validering
 
         addActivity({ name, date, location});
+
+         // Återställer fälten i formuläret efter "Submit"
         setName("");
         setDate("");
         setLocation("");

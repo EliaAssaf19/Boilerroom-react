@@ -33,4 +33,7 @@ button:hover {
   border-color: #646cff;
 }
 
+li {
+  list-style: none;
+}
 

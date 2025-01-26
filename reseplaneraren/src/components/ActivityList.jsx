@@ -1,14 +1,16 @@
+import Button from "./Button";
 import React from "react";
 import ActivityItem from "./ActivityItem";
 
-function ActivityList({ activities }) {
+function ActivityList({ activities, deleteActivity }) {
     return (
         <ul>
             {activities.map((activity, index) => (
-                <ActivityItem key={index} activity={activity} />
+                <ActivityItem key={index} activity={activity} onDelete={() => deleteActivity(index)} />
             ))}
-        </ul>
+        </ul>    
     );
 }
-
+    
+    
 export default ActivityList;
